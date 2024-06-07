@@ -34,6 +34,10 @@ const DijiktraCalculatorComponent: React.FC = () => {
 
   return (
     <div className="dijiktra__section">
+      <div>
+       <h1 className="typography-heading">Dijiktra’s Algorithm Calculator</h1>
+       <h2 className="typography-subheading">Discovering Optimal Routes Through Nodes Using Dijkstra's Method</h2>
+      </div>
       <div className="calculate__section">
         <div className="calculate__input__container">
           <h1 className="calculate__input__container__head">Select Path</h1>
