@@ -1,5 +1,5 @@
 .dijiktra__section {
-  background: linear-gradient(to bottom, #1154a3 320px, #e7f4ff 320px);
+  background: linear-gradient(to bottom, #1154a3 377px, #E7F3FF 377px);
   min-height: 100vh;
   position: relative;
 }
@@ -14,7 +14,7 @@
   border-radius: 8px;
 }
 
-.right__container {
+.result__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@
   background-color: #F2F3F6;
   padding: 28px 18px;
   border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-bottom-right-radius: 8px; 
 }
 
 .calculate__input__container {
@@ -142,7 +142,9 @@
   height: 48px;
   position: absolute;
   top: 79px;
-  left: 480px;
+  /* left: 480px; */
+  left:50%;
+  transform: translateX(-50%);
   opacity: 1;
   color: #ffffff;
 }
@@ -157,7 +159,9 @@
   height: 24px;
   position: absolute;
   top: 143px;
-  left: 455px;
+  /* left: 455px; */
+  left:50%;
+  transform: translateX(-50%);
   opacity: 1;
   color: #FFFFFF;
 }
