@@ -88,7 +88,7 @@ const DijiktraCalculatorComponent: React.FC = () => {
           </div>
         </div>
 
-        <div className="right__container" style={{ backgroundColor: isCalculate ? '#F2F3F6' : '#fff' }}>
+        <div className="result__container" style={{ backgroundColor: isCalculate ? '#F2F3F6' : '#fff' }}>
           {!isCalculate ? (
            <OptimizerIcon style={{ height: "200px",width:"200px" }} />
           ) : (
